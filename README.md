@@ -21,11 +21,15 @@ Install Cypress
 
 ```npm install cypress --save-dev```
 
+Run the test :
+
 ```cypress run --spec cypress/integration/bdd/gridtask.feature --headed --browser chrome```
 
 ## To generate the reports
 
 ```node cucumber-html-report.js ```
+
+After report generation ```index.html``` path is shown in the console open in the chrome browser
 
 ### Reports will be generated 
 The reports can be generated under ```./reports/cucumber-report.html``` Refer the ```index.html``` for the cucumber reports.
