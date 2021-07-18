@@ -6,6 +6,11 @@ Cypress (https://www.cypress.io/)
 cypress-cucumber-preprocessor (https://www.npmjs.com/package/cypress-cucumber-preprocessor  )
 multiple-cucumber-html-reporter (https://www.npmjs.com/package/multiple-cucumber-html-reporter )
 
+## Prerequisite 
+Latest node version should be installed, please check using 
+
+```node --version```
+
 ## Running the Project
 
 Before running please make sure you are under project root directory under ```GridTask``` directory ```cd GridTask``` after cloning the project
