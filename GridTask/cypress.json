@@ -1,0 +1,6 @@
+{
+    "env": {
+        "url": "https://www.d3a.io/"
+      },
+    "testFiles": "**/*.feature"
+}

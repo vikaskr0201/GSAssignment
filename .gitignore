@@ -1,0 +1,7 @@
+GridTask/node_modules
+GridTask/cypress/screenshots/
+GridTask/cypress/videos/
+GridTask/reports/cucumber-report.html/
+.DS_Store
+
+

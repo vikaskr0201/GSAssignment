@@ -1,0 +1,143 @@
+[
+  {
+    "description": "    ***Automated Test Suite - tests basic operations of d3a.io***",
+    "keyword": "Feature",
+    "name": "End to End Test for Grid Singularity QA Assignment",
+    "line": 1,
+    "id": "end-to-end-test-for-grid-singularity-qa-assignment",
+    "tags": [],
+    "uri": "gridtask.feature",
+    "elements": [
+      {
+        "id": "end-to-end-test-for-grid-singularity-qa-assignment;tc-001-precreated-user-is-able-to-login",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "TC-001 Precreated user is able to login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open d3a.io landing page",
+            "result": {
+              "status": "passed",
+              "duration": 8363000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I successfully enter the precreated user credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2626000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Able to login",
+            "result": {
+              "status": "passed",
+              "duration": 583000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-test-for-grid-singularity-qa-assignment;tc-002-precreated-user-is-able-to-create-project",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "TC-002 Precreated user is able to create project",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I open d3a.io landing page",
+            "result": {
+              "status": "passed",
+              "duration": 2748000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I successfully enter the precreated user credentials",
+            "result": {
+              "status": "passed",
+              "duration": 3329000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Able to create the project",
+            "result": {
+              "status": "passed",
+              "duration": 8215000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-test-for-grid-singularity-qa-assignment;tc-003-precreated-user-is-able-to-create-simulation",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "TC-003 Precreated user is able to create simulation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I open d3a.io landing page",
+            "result": {
+              "status": "passed",
+              "duration": 1884000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I successfully enter the precreated user credentials",
+            "result": {
+              "status": "passed",
+              "duration": 3552000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Able to create the project",
+            "result": {
+              "status": "passed",
+              "duration": 7976000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Able to create the simulation for the above created project",
+            "result": {
+              "status": "passed",
+              "duration": 9764000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
