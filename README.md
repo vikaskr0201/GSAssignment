@@ -1,5 +1,7 @@
 # GSAssignment : Solution for the test assignment
 
+## Author : Vikas Kumar 
+
 ## Frameworks Details 
 This framework is based on:
 Cypress (https://www.cypress.io/)
@@ -21,13 +23,21 @@ Install Cypress
 
 ```npm install cypress --save-dev```
 
+Install cypress cucumber preprocessor
+
+```npm install --save-dev cypress-cucumber-preprocessor```
+
+Install multiple cucumber html reporter 
+
+```npm install multiple-cucumber-html-reporter --save-dev```
+
 Run the test :
 
 ```cypress run --spec cypress/integration/bdd/gridtask.feature --headed --browser chrome```
 
 ## To generate the reports
 
-```node cucumber-html-report.js ```
+```node cucumber-html-report.js```
 
 After report generation ```index.html``` path is shown in the console open in the chrome browser
 
