@@ -8,9 +8,13 @@ multiple-cucumber-html-reporter (https://www.npmjs.com/package/multiple-cucumber
 
 ## Running the Project
 
-Before running please make sure you are under project root directory under ```GridTask``` directory 
+Before running please make sure you are under project root directory under ```GridTask``` directory ```cd GridTask``` after cloning the project
 
 ```npm install```
+
+Install Cypress 
+
+```npm install cypress --save-dev```
 
 ```cypress run --spec cypress/integration/bdd/gridtask.feature --headed --browser chrome```
 
