@@ -17,5 +17,5 @@ multiple-cucumber-html-reporter (https://www.npmjs.com/package/multiple-cucumber
 ```node cucumber-html-report.js ```
 
 ### Reports will be generated 
-The reports can be generated under ./reports/cucumber-report.html. Refer the index.html for the cucumber reports.
+The reports can be generated under ```./reports/cucumber-report.html``` Refer the index.html for the cucumber reports.
 
