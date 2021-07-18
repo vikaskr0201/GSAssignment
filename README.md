@@ -8,8 +8,9 @@ multiple-cucumber-html-reporter (https://www.npmjs.com/package/multiple-cucumber
 
 ## Running the Project
 
-```npm install```
-```cypress run --spec cypress/integration/bdd/gridtask.feature --headed --browser chrome```
+```npm install
+
+cypress run --spec cypress/integration/bdd/gridtask.feature --headed --browser chrome ```
 
 ## To generate the reports
 
